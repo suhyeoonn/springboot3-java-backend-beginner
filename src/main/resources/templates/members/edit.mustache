@@ -1,0 +1,11 @@
+{{>layouts/header}}
+{{#member}}
+<form action="/members/update" method="post">
+    <input type="hidden" name="id" value="{{id}}">
+    <input type="text" name="email" value="{{email}}">
+    <input type="password" name="password" value="{{password}}">
+    <button type="submit">submit</button>
+    <a href="/members/{{id}}">Back</a>
+</form>
+{{/member}}
+{{>layouts/footer}}
