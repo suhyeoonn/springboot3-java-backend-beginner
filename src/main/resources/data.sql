@@ -1,4 +1,4 @@
-INSERT INTO article(id, title, content) values
-(1, 'aa', '11'),
-(2, 'bb', '22'),
-(3, 'cc', '33');
+INSERT INTO article(title, content) values
+('aa', '11'),
+('bb', '22'),
+('cc', '33');
